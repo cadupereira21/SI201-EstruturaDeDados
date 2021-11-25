@@ -1,0 +1,6 @@
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\Algoritmos\Algoritmos\bin\Debug\Algoritmos.exe
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\Algoritmos\Algoritmos\bin\Debug\Algoritmos.pdb
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\Algoritmos\Algoritmos\obj\Debug\Algoritmos.csprojAssemblyReference.cache
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\Algoritmos\Algoritmos\obj\Debug\Algoritmos.csproj.CoreCompileInputs.cache
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\Algoritmos\Algoritmos\obj\Debug\Algoritmos.exe
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\Algoritmos\Algoritmos\obj\Debug\Algoritmos.pdb
