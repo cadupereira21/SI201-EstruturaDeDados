@@ -7,7 +7,7 @@ using System.Collections;
 
 namespace Algoritmos
 {
-    public class Busca
+    public static class Busca
     {
         public static int Sequencial(ICollection vector, object key)
         {
@@ -26,13 +26,13 @@ namespace Algoritmos
 
         public static int Binaria(int[] vector, int key)
         {
-            vector = Ordenação.QuickSort(vector);
+            vector = Ordenacao.QuickSort(vector);
             return Search(vector, key, 0, vector.Length-1);
         }
         
         public static int Binaria(double[] vector, double key)
         {
-            vector = Ordenação.QuickSort(vector);
+            vector = Ordenacao.QuickSort(vector);
             return Search(vector, key, 0, vector.Length-1);
         }
         

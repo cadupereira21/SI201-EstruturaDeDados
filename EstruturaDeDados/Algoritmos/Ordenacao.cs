@@ -4,9 +4,9 @@
 
 namespace Algoritmos
 {
-    public static class Ordenação
+    public static class Ordenacao
     {
-        // BUBBLE SORT ===================================================== /
+         // BUBBLE SORT ===================================================== /
         
         public static int[] BubbleSort(int[] v)
         {
