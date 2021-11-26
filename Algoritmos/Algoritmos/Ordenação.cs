@@ -1,4 +1,8 @@
-﻿namespace Algoritmos
+﻿/*
+ * Author: Manko
+ */
+
+namespace Algoritmos
 {
     public static class Ordenação
     {
@@ -161,6 +165,13 @@
             var resultado = QuickSort(vector, 0, vector.Length - 1);
             return resultado;
         }
+        
+        public static double[] QuickSort(double[] vector)
+        {
+            var resultado = QuickSort(vector, 0, vector.Length - 1);
+            return resultado;
+        }
+
         private static int[] QuickSort(int[] vector, int l, int r)
         {
             int i, j;
@@ -190,9 +201,48 @@
             
             return vector;
         }
+        
+        private static double[] QuickSort(double[] vector, int l, int r)
+        {
+            int i, j;
+            double x;
+            i = l;
+            j = r;
+            x = vector[(l + r) / 2]; /* acha o item pivot */
+            
+            while (true)
+            {
+                while (vector[i] < x)
+                    i++;
+                while (x < vector[j])
+                    j--;
+                if (i <= j)
+                {
+                    SwapValues(vector, i, j);
+                    i++;
+                    j--;
+                }
+                if (i > j)
+                    break;
+            }
+            
+            if (l < j) QuickSort(vector, l, j);
+            if (i < r) QuickSort(vector, i, r);
+            
+            return vector;
+        }
+        
         private static void SwapValues(int[] vector, int m, int n)
         {
             int aux;
+            aux = vector[m];
+            vector[m] = vector[n];
+            vector[n] = aux;
+        }
+        
+        private static void SwapValues(double[] vector, int m, int n)
+        {
+            double aux;
             aux = vector[m];
             vector[m] = vector[n];
             vector[n] = aux;

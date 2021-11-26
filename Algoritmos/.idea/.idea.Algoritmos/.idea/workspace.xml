@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7a640f6cb24140b6897cac910f84943045d000/b0/a1b7e46c/TextWriter.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="21K4dOR4BSrdTnygDdCawFEpvWR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,6 +57,7 @@
       <updated>1637676533572</updated>
       <workItem from="1637676536839" duration="167000" />
       <workItem from="1637866533924" duration="7525000" />
+      <workItem from="1637927587201" duration="5750000" />
     </task>
     <servers />
   </component>
