@@ -1,0 +1,6 @@
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\EstruturaDeDados\Estruturas\bin\Debug\Estruturas.exe
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\EstruturaDeDados\Estruturas\bin\Debug\Estruturas.pdb
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\EstruturaDeDados\Estruturas\obj\Debug\Estruturas.csprojAssemblyReference.cache
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\EstruturaDeDados\Estruturas\obj\Debug\Estruturas.csproj.CoreCompileInputs.cache
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\EstruturaDeDados\Estruturas\obj\Debug\Estruturas.exe
+C:\Users\T-Gamer\Documents\Faculdade\Estrutura de Dados l\EstruturaDeDados\EstruturaDeDados\Estruturas\obj\Debug\Estruturas.pdb
