@@ -8,21 +8,21 @@ namespace Estruturas
         {
             var value = 1;
             
-            Queue queue = new Queue();
-
+            CircularQueue queue = new CircularQueue();
+            
             while (value != 10)
             {
                 queue.Enqueue(new Node(value++));
             }
 
-            Console.WriteLine($"Size = {queue.Size}");
-
             queue.Print();
-            Console.WriteLine(((Node) queue.DeEnqueue()).Value);
             
+            Console.WriteLine($"\nLast in Queue = {((Node)queue.GetLastInQueue()).Value}");
+            Console.WriteLine($"Dequeued value = {((Node) queue.DeEnqueue()).Value}");
             queue.Print();
-            queue.DeEnqueue();
             
+            Console.WriteLine($"\nLast in Queue = {((Node)queue.GetLastInQueue()).Value}");
+            Console.WriteLine($"Dequeued value = {((Node) queue.DeEnqueue()).Value}");
         }
     }
 }

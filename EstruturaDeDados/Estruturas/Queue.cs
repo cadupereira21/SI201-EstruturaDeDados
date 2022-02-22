@@ -4,8 +4,8 @@ namespace Estruturas
 {
     public class Queue
     {
-        public Node NextInQueue { get; private set; }
-        public int Size { get; private set; }
+        public Node NextInQueue { get; protected set; }
+        public int Size { get; protected set; }
 
         #region Constructors
 
@@ -17,14 +17,14 @@ namespace Estruturas
         
         public Queue(object obj)
         {
-            SetNextInLine(obj);
+            SetNextInQueue(obj);
 
             Size+=1;
         }
 
         #endregion
 
-        private void SetNextInLine(object obj)
+        private void SetNextInQueue(object obj)
         {
             if(obj.GetType() == typeof(Node))
                 NextInQueue = (Node) obj;
@@ -69,7 +69,7 @@ namespace Estruturas
         public int Enqueue(object value)
         {
             if (IsEmpty())
-                SetNextInLine(value);
+                SetNextInQueue(value);
             else
                 ((Node) GetLastInQueue()).Tie(value);
             
