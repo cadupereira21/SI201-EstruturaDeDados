@@ -11,21 +11,22 @@
             Next = null;
         }
 
-        public void Tie(object obj)
+        public static Node ToNode(object obj)
         {
             if (obj == null)
-            {
-                Next = null;
-            }
-            else if (obj.GetType() == typeof(Node))
-            {
-                Next = obj;
-            }
-            else
-            {
-                Node n = new Node(obj);
-                Next = n;
-            }
+                return null;
+            
+            if(obj.GetType() == typeof(Node))
+                return ((Node) obj);
+            
+            return new Node(obj);
+        }
+
+        public void Tie(object obj)
+        {
+            var n = ToNode(obj);
+
+            Next = n;
         }
 
         public void CircularTie(object startNode, object obj)

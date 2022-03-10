@@ -6,23 +6,17 @@ namespace Estruturas
     {
         public static void Main(string[] args)
         {
-            var value = 1;
-            
-            CircularQueue queue = new CircularQueue();
-            
-            while (value != 10)
-            {
-                queue.Enqueue(new Node(value++));
-            }
-
-            queue.Print();
-            
-            Console.WriteLine($"\nLast in Queue = {((Node)queue.GetLastInQueue()).Value}");
-            Console.WriteLine($"Dequeued value = {((Node) queue.DeEnqueue()).Value}");
-            queue.Print();
-            
-            Console.WriteLine($"\nLast in Queue = {((Node)queue.GetLastInQueue()).Value}");
-            Console.WriteLine($"Dequeued value = {((Node) queue.DeEnqueue()).Value}");
+            ChainedList list = new ChainedList();
+            list.Add(0);
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+            list.Add(4);
+            list.Add(5);
+            list.Add(6);
+            list.Print();
+            list.DeleteFromIndex(2);
+            list.Print();
         }
     }
 }
